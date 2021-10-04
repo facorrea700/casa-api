@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "0dcf2d9a-3cab-45f0-b4bc-b452763f6f4a",
+		"name": "MembersCollections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insertMember",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/Miembro/?name=Bruno&surname=Dos Santos&email=brunitods@gmail.com&password=admin123",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"Miembro",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bruno"
+						},
+						{
+							"key": "surname",
+							"value": "Dos Santos"
+						},
+						{
+							"key": "email",
+							"value": "brunitods@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "admin123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMember",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/Miembro/6",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"Miembro",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllMembers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/Miembro/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"Miembro",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
