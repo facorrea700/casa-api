@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="facundo.png" width="400"></a></p>
+<p align="center"><img src="facundo.png" width="400"></a></p>
 
 <p align="center">
 <a href="https://twitter.com/facorreaok"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-8.png" alt="Twitter" width="40"> </a>
