@@ -19,6 +19,7 @@ class CreateMiembrosTable extends Migration
             $table->string('surname');
             $table->string('email')->unique();
             $table->string('password');
+            $table->integer('monto')->default(0);
         });
     }
 

@@ -18,3 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::apiResource('/Miembro', App\Http\Controllers\MiembroController::class);
+Route::post('/Miembro/deposit', [App\Http\Controllers\MiembroController::class, 'deposit']);
+Route::post('/Miembro/remove', [App\Http\Controllers\MiembroController::class, 'remove']);
+Route::post('/Miembro/transfer', [App\Http\Controllers\MiembroController::class, 'transfer']);
